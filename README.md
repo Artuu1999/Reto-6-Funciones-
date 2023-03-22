@@ -28,7 +28,9 @@ if __name__ == "__main__":
   print("El volumen de la figura en centímetros es " + str(volumen))
 ```
 ![image](https://user-images.githubusercontent.com/124615034/226496094-1c47bc99-9718-413d-9dba-402d44374194.png)
+
 El programa funcionando se ve de la siguiente manera:
+
 ![image](https://user-images.githubusercontent.com/124615034/226497100-62d2b76b-a53e-486b-b25a-ce12e04b8245.png)
 
 ##  Ejemplo No. 2
@@ -56,7 +58,9 @@ if __name__ == "__main__":
   print ( "El perímetro de la figura es "+ str(perimetro)+" centímetros")
 ```
 ![image](https://user-images.githubusercontent.com/124615034/226497251-7c755e12-17db-4c41-93d4-3e764042958a.png)
+
 De la siguiente manera se ve el programa ejecutado:
+
 ![image](https://user-images.githubusercontent.com/124615034/226503617-0d42a21f-a352-4390-a18e-79ded2c99625.png)
 
 ##  Ejemplo No. 3
@@ -73,7 +77,9 @@ if __name__ == "__main__":
   print("La cantidad total de carne de aves es de "+ str(Total)+" kilogramos")
 ```
 ![image](https://user-images.githubusercontent.com/124615034/226768729-064c25c4-9844-4531-bc04-b670d0a18eec.png)
+
  El programa al ejecutarse se ve así:
+ 
  ![image](https://user-images.githubusercontent.com/124615034/226768849-53774eea-e37d-4272-a1c2-cf4e77b5b763.png)
  
 ##  Ejemplo No. 4
@@ -91,7 +97,9 @@ if __name__ == "__main__":
   print("Las vueltas correspondientes al mandado son de "+ str(Vueltas)+" pesos")
 ```
 ![image](https://user-images.githubusercontent.com/124615034/226768989-1a321c7b-18e0-4e43-b3c7-0f0a93ceff0c.png)
+
 De la siguiente forma el programa se ejecuta:
+
 ![image](https://user-images.githubusercontent.com/124615034/226769175-73d142d0-2d31-4585-a815-0cd19e0dd9e9.png)
  
 ##  Ejemplo No. 5
@@ -109,7 +117,9 @@ if __name__ == "__main__":
   print("El prestamo realizado fue por un valor de "+ str(prestamo)+" pesos")
 ```
 ![image](https://user-images.githubusercontent.com/124615034/226769382-27685788-a27d-4c57-bf00-3789c8a1457f.png)
+
 De la siguiente manera se ve al ejecutar el programa diseñado:
+
 ![image](https://user-images.githubusercontent.com/124615034/226769544-43e76834-22f3-4b21-a962-dd9d5c82349c.png)
  
 ##  Ejemplo No. 6
@@ -125,7 +135,9 @@ if __name__ == "__main__":
   print("La cantidad de personas contagiadas transcurridos "+str(D)+" días, es de "+ str(Total)+" personas")
 ```
 ![image](https://user-images.githubusercontent.com/124615034/226769698-82836fe4-22de-4ed7-815e-25adf9ad0fff.png)
+
 Programa ejecutado:
+
 ![image](https://user-images.githubusercontent.com/124615034/226769825-9567d9db-2a72-435f-843c-805c67a9757c.png)
  
 ##  Ejemplo No. 7
@@ -353,4 +365,5 @@ print("la potencia del mayor numero elvado el menor numero  es "+ str(potencia))
 print("la raiz del menor número es " + str (raizm))
 ```
 Al ejecutar el programa se ve de la siguiente manera
+
 ![image](https://user-images.githubusercontent.com/124615034/226770179-5caad4ca-e5ef-4fb9-87c9-4ba78a8a510a.png)
