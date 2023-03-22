@@ -3,6 +3,21 @@
 Espero que se encuentren excelente estimados lectores, en el presente repositorio haremos varios ejemplos de código en Python utilizando las funciones.
 
 ##  Ejemplo No. 1
+Se debe diseñar un código que dearrolle una función para cálcular el área superficial y el volumen de la siguiente figura:
+
+![image](https://user-images.githubusercontent.com/124615034/226771682-a8274912-9c8d-4057-add2-fba0b1c817eb.png)
+
+Para ello debemos tener en cuenta las fórmulas para hallar el área supericial y el volumen de una esfera y de un cono
+
+> Área Superficial Esfera: 4*π*r²
+
+> Volumen Esfera: 1/3hπr²
+
+> Área Superficial Cono: πrl + πr²
+
+> Volumen Esfera: V = 4/3 πr³
+
+El código solución al anterior problema se presenta a continuación
 
 ```sh
 from math import pi, sqrt
@@ -34,7 +49,21 @@ El programa funcionando se ve de la siguiente manera:
 ![image](https://user-images.githubusercontent.com/124615034/226497100-62d2b76b-a53e-486b-b25a-ce12e04b8245.png)
 
 ##  Ejemplo No. 2
+Se debe desarrollar una función matemática que resuelva el área y perímetro de la siguiente figura:
 
+![image](https://user-images.githubusercontent.com/124615034/226773245-eec6d80c-ffae-42c4-ada9-72718c707870.png)
+
+Para ello debemos tener en cuenta las fórmulas para hallar el área y el perímetro de una circunferencia y de un rectángulo
+
+> Perímetro Rectángulo: 2b+2h
+
+> Área Rectángulo: b*h
+
+> Perímetro Circunferencia: 2πr
+
+> Área Circunferencia: πr²
+
+El pseudocódigo que resuelve el problema de áreas y perímetro de la figura, es el siguiente:
 ```sh
 from math import pi, sqrt
 
@@ -64,6 +93,8 @@ De la siguiente manera se ve el programa ejecutado:
 ![image](https://user-images.githubusercontent.com/124615034/226503617-0d42a21f-a352-4390-a18e-79ded2c99625.png)
 
 ##  Ejemplo No. 3
+Ahora bien se debe diseñar un programa en Python que contenga la función que relacione la cantidad de aves (gallinas, gallos y pollitos) con su respectivo peso (6 kg, 7 kg y 1 kg) y que al sumar dichas relaciones nos indique la cantidad total de carne de aves.
+El programa se ejecuta de una manera óptima mediante el uso del siguiente código:
 
 ```sh
 def cantidadCarneAves(N:int, M:int, K:int) -> int:
@@ -83,7 +114,11 @@ if __name__ == "__main__":
  ![image](https://user-images.githubusercontent.com/124615034/226768849-53774eea-e37d-4272-a1c2-cf4e77b5b763.png)
  
 ##  Ejemplo No. 4
+A continuación se debe crear un código, el cual al ejecutarlo me imprima la solución al siguiente problema:
 
++ Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Cual es el valor de las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
+
+El siguiente pseudocódigo contiene la solución al problema
 ```sh
 def cantidadVueltas(P:int, M:int, H:int, B:float) -> float:
     return B - (P*300 + M*3300 + H*350)
@@ -103,7 +138,10 @@ De la siguiente forma el programa se ejecuta:
 ![image](https://user-images.githubusercontent.com/124615034/226769175-73d142d0-2d31-4585-a815-0cd19e0dd9e9.png)
  
 ##  Ejemplo No. 5
+El interés compuesto es un tipo de préstamo que acumula intereses, la fórmula básica de dicho concepto financiero es:
+> Cf= Ci (1+i)^n
 
+El siguiente código al ejecutarse muestra el capital inicial, es decir el dinero prestado, mediante el uso de la fórmula del interes compuesto, utilizando las variables del capital total pagado, la tasa de interés anual y la cantidad de cuotas pagadas.
 ```sh
 def valorPrestamo(capitalFinal:float, tasaDeInteres:float, tiempo:int) -> float:
     interes = (tasaDeInteres/100)/ 12
@@ -123,7 +161,12 @@ De la siguiente manera se ve al ejecutar el programa diseñado:
 ![image](https://user-images.githubusercontent.com/124615034/226769544-43e76834-22f3-4b21-a962-dd9d5c82349c.png)
  
 ##  Ejemplo No. 6
+El crecimiento exponencial es un tipo de crecimiento en el que la tasa de crecimiento aumenta constantemente en función del tamaño actual de una cantidad.
+En este caso si el número de contagiados aumenta exponencialmente, duplicandose cada día la cantidad, la función que se usará es la siguiente:
+> C x 2^D
 
+Siendo C la cantidad de contagiados actual y D la cantidad de días transcurridos
+El código solución es el siguiente:
 ```sh
 def totalPersonasContagiadasNuncalandia(C:int, D:int) -> int:
     return C * (2**D)
@@ -141,13 +184,13 @@ Programa ejecutado:
 ![image](https://user-images.githubusercontent.com/124615034/226769825-9567d9db-2a72-435f-843c-805c67a9757c.png)
  
 ##  Ejemplo No. 7
-
+Se importaron las funciones del archivo independiente funcionesaritméticas.py
 ```sh
 from funcionesaritméticas import promedio
 ```
 
 ##  Ejemplo No. 8
-
+Este archivo contiene los códigos que solucionan el promedio, la mediana, el promedio multiplicativo, el orden ascendente y descendente, la potencia del mayor número elevado al menor y la raíz cúbica del menor; todo aquellos con 5 números reales ingresados por el usuario
 ```sh
 # Se declaran las variables que va se van a utilizar en el programa
 a:float
@@ -367,3 +410,56 @@ print("la raiz del menor número es " + str (raizm))
 Al ejecutar el programa se ve de la siguiente manera
 
 ![image](https://user-images.githubusercontent.com/124615034/226770179-5caad4ca-e5ef-4fb9-87c9-4ba78a8a510a.png)
+
+##  PIP en Python
+Pip es un sistema de gestión de paquetes en Python, el cual se encarga de instalar, administrar y analizar paquetes software y módulos no incluidos en Python, es decir adiciona funciones útiles para la realización de tareas, el manejo de datos, el diseño específico, la creación de gráficas, entre otras utilidades.
+Su uso se facilita en cierta manera, ya que se puede encontrar formatos de código en la web, disponibles para el uso de todo programador. Además para instalar un paquete basta con colocar el comando  
+```sh
+`pip install + nombre del módulo`
+```
+para ya comenzar a disfrutar de las funciones incluidas del paquete instalado
+
+##  Módulos populares de PIP en Python
+
+* Numpy: Usada para realizar operaciones matemáticas
+```sh
+`pip install numpy`
+```
+* Pandas: Útil en la gestión de datos
+```sh
+`pip install pandas
+```
+* Matplotlib: Visualiza datos y gráficos
+```sh
+`pip install matplotlib`
+```
+* Scikit-learn: Realiza aprendizaje autónomo
+```sh
+`pip install scikit-learn`
+```
+* Requests: Envía solicitudes HTTP a sitios web
+```sh
+`pip install requests`
+```
+* TensorFlow: Desarrolla modelos de aprendizaje complejos
+```sh
+`pip install tensorflow`
+```
+* Django: Útil en el desarrollo de aplicaciones web
+```sh
+`pip install django`
+```
+* Flask: Útil en el desarrollo de aplicaciones web pequeñas y medianas
+```sh
+`pip install flask`
+```
+* Pygame: Es usada para el desarrollo de videojuegos
+```sh
+`pip install pygame`
+```
+
+## FIN
+Hasta acá llega nuestro camino en el presente repo, espero que haya sido de tu interés, si encuentras algún error o alguna inconsistencia, no dudes en contactarme y hacermela saber.
+
+   **"Cuando todo parece ir en tu contra, recuerda que el avión despega con el viento en contra, no a favor"**
+         - Henry Ford
